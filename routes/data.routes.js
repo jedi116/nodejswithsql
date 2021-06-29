@@ -8,5 +8,6 @@ router.get("/", (req, res) => {
 
 router.get("/actors", actorsReadcontroller);
 router.get("/films", filmsReadController);
+router.get("/", actorsReadcontroller);
 
 module.exports = router;
